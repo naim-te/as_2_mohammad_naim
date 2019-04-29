@@ -81,6 +81,11 @@ h1{
 	margin-left: 5px; 
 	padding: 40px 20px;
 	float: left;
+	transition: ease 0.7s all;
+}
+.content-grid:hover{
+	box-shadow: 0 0 10px grey;
+	background-color: #faf5f5;
 }
 .cdm{
 	margin-top: 5px;
