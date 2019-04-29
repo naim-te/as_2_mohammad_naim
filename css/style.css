@@ -103,7 +103,7 @@ h3{
 	background: #eeeeee;
 	float: left;
 	width: 100%;
-	padding: 50px auto;
+	padding: 50px 0;
 }
 .img{
 	height: 260px;
@@ -115,6 +115,7 @@ img{
 	height: 100%;
 	width: 95%;
 	margin: 0 auto;
+        display: block;
 	transition: ease .7s all;
 	box-shadow: 0 0 15px black;
 }
