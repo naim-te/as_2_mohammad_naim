@@ -91,7 +91,7 @@ h3{
 }
 .portfolio-image{
 	background: #eeeeee;
-	overflow: hidden;
+	float: right;
 	width: 100%;
 	padding: 50px 0;
 }
