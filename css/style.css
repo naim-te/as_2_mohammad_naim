@@ -77,18 +77,23 @@ h1{
 .content-grid{
 	background: #e6e6e6;
 	height: 110px;
-	width: 335px;
-	margin-left: 5px; 
+	width: 330px;
+	margin-left: 10px; 
 	padding: 40px 20px;
 	float: left;
 	transition: ease 0.7s all;
+	color: grey;
 }
 .content-grid:hover{
-	box-shadow: 0 0 10px grey;
+	box-shadow: 0 0 15px grey;
 	background-color: #faf5f5;
+	color: black;
 }
 .cdm{
-	margin-top: 5px;
+	margin-top: 10px;
+}
+.cdn{
+	margin-left: 5px;
 }
 h3{
 	padding-bottom: 20px;
@@ -96,7 +101,7 @@ h3{
 }
 .portfolio-image{
 	background: #eeeeee;
-	float: right;
+	overflow: hidden;
 	width: 100%;
 	padding: 50px 0;
 }
@@ -104,12 +109,18 @@ h3{
 	height: 260px;
 	width: 33.33%;
 	float: left;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 img{
 	height: 100%;
-	width: 97%;
+	width: 95%;
 	display: block;
 	margin: 0 auto;
+	transition: ease .7s all;
+	box-shadow: 0 0 15px black;
+}
+.img:hover > img{
+	transform: scale(1.1, 1.15);
+	box-shadow: none;
 }
 /*Portfolio End*/
